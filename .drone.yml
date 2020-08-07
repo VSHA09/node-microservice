@@ -37,7 +37,7 @@ steps:
   commands:
   - oc login --token=$OPENSHIFT_TOKEN --server=$OPENSHIFT_SERVER
   - oc project danske-training
-  - oc new-app nishanthkp/node-microservice:latest --name=node-microservice-nishanth
+  - oc new-app vishalshah09/node-microservice:latest --name=node-microservice-vishal
   environment:
     OPENSHIFT_TOKEN:
       from_secret: OPENSHIFT_TOKEN
