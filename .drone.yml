@@ -21,7 +21,7 @@ steps:
   image: plugins/docker:latest
   pull: if-not-exists
   settings:
-    repo: nishanthkp/node-microservice
+    repo: vishalshah09/node-microservice
     tags: ["build_${DRONE_BUILD_NUMBER}", "latest"]
     when:
       branch: master
